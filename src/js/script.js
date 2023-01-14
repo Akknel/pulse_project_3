@@ -117,7 +117,7 @@ $(document).ready(function(){
         }
     });
 
-    $("a").on('click', function(event) {
+    $("a[href=#up]").on('click', function(event) {
         if (this.hash !== "") {
           event.preventDefault();
           var hash = this.hash;
